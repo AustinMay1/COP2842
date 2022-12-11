@@ -45,7 +45,8 @@ class Instructor {
 
     public function getFullName()
     {
-        return $this->firstName + " " + $this->lastName;
+        $fullName = $this->firstName . " " . $this->lastName;
+        return $fullName;
     }
 }
 
